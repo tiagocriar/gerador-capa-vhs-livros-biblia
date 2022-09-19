@@ -12,8 +12,8 @@ const Folha = tw.div`
 `
 
 const CapaFilme = tw.div`
-    w-[225mm]
-    h-[180mm]
+    w-[250mm]
+    h-[200mm]
     border-r-2
     border-b-2
     border-dashed
@@ -23,27 +23,28 @@ const CapaFilme = tw.div`
 `
 
 const Frente = tw.div`
-    w-[100mm]
-    h-[180mm]
+    w-[110mm]
+    h-[200mm]
     border-r-2
     border-dashed
     border-gray-200
     flex
     justify-center
     items-center
+    px-5
 `
 
 const Verso = tw.div`
-    w-[100mm]
-    h-[180mm]
+    w-[110mm]
+    h-[200mm]
     flex
     justify-center
     items-center
 `
 
 const Meio = tw.div`
-    w-[25mm]
-    h-[180mm]
+    w-[30mm]
+    h-[200mm]
     border-r-2
     border-dashed
     border-gray-200
@@ -53,8 +54,9 @@ const Meio = tw.div`
 `
 
 const NomeLivro = tw.span`
-    text-[26px]
-    whitespace-nowrap
+    text-center
+    font-kanit
+    text-[46px]
 `
 
 function Print({livro}) {
@@ -70,7 +72,7 @@ function Print({livro}) {
                     </NomeLivro>
                 </Frente>
                 <Meio>
-                    <NomeLivro className='rotate-90'>
+                    <NomeLivro className='rotate-90 whitespace-nowrap'>
                         {livro}
                     </NomeLivro>
                 </Meio>
