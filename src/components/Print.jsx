@@ -12,7 +12,7 @@ const Folha = tw.div`
 `
 
 const CapaFilme = tw.div`
-    w-[255mm]
+    w-[260mm]
     h-[200mm]
     border-r-2
     border-b-2
@@ -23,7 +23,7 @@ const CapaFilme = tw.div`
 `
 
 const Frente = tw.div`
-    w-[112mm]
+    w-[115mm]
     h-[200mm]
     border-r-2
     border-dashed
@@ -35,7 +35,7 @@ const Frente = tw.div`
 `
 
 const Verso = tw.div`
-    w-[112mm]
+    w-[115mm]
     h-[200mm]
     flex
     justify-center
