@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Print from './components/Print';
+import MenuLivros from './components/MenuLivros';
+import { useState } from 'react';
 
 function App() {
+
+  const [livro, setLivro] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='mt-5 print:mt-0 flex justify-center flex-col'>
+      <button className='print:hidden bg-red-600 text-white my-4'
+        onClick={() => window.print()}>
+        IMPRIMIR
+      </button>
+
+      <MenuLivros onSet={(livro) => setLivro(livro)} />
+      <Print livro={livro} />
     </div>
   );
 }
