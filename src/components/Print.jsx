@@ -75,7 +75,7 @@ function Print({livro}) {
                     </NomeLivro>
                 </Meio>
                 <Verso>
-                    VERSO
+                    
                 </Verso>
             </CapaFilme>
         </Folha>
