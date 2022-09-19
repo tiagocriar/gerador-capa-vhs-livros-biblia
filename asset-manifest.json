@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/gerador-capa-vhs-livros-biblia/static/css/main.473c93da.css",
-    "main.js": "/gerador-capa-vhs-livros-biblia/static/js/main.cb3a7efd.js",
+    "main.css": "/gerador-capa-vhs-livros-biblia/static/css/main.c34a1dd4.css",
+    "main.js": "/gerador-capa-vhs-livros-biblia/static/js/main.b2be46a8.js",
     "static/js/787.caab74e1.chunk.js": "/gerador-capa-vhs-livros-biblia/static/js/787.caab74e1.chunk.js",
     "index.html": "/gerador-capa-vhs-livros-biblia/index.html",
-    "main.473c93da.css.map": "/gerador-capa-vhs-livros-biblia/static/css/main.473c93da.css.map",
-    "main.cb3a7efd.js.map": "/gerador-capa-vhs-livros-biblia/static/js/main.cb3a7efd.js.map",
+    "main.c34a1dd4.css.map": "/gerador-capa-vhs-livros-biblia/static/css/main.c34a1dd4.css.map",
+    "main.b2be46a8.js.map": "/gerador-capa-vhs-livros-biblia/static/js/main.b2be46a8.js.map",
     "787.caab74e1.chunk.js.map": "/gerador-capa-vhs-livros-biblia/static/js/787.caab74e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.473c93da.css",
-    "static/js/main.cb3a7efd.js"
+    "static/css/main.c34a1dd4.css",
+    "static/js/main.b2be46a8.js"
   ]
 }
